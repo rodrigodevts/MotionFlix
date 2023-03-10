@@ -6,8 +6,8 @@
     --blue-selected: rgba(30, 73, 210, 0.8);
     --grey: rgba(104, 104, 104, 1);
     --grey-selected: rgb(162, 159, 159);
-    --green: rgb(44, 212, 103);
-    --green-selected: rgba(30, 169, 79, 0.9);
+    --green: rgba(212, 44, 44, 1);
+    --green-selected:rgba(170, 35, 35, 0.9);
     --red: rgba(212, 44, 44, 1);
     --red-selected: rgba(170, 35, 35, 0.9);
     --card-scale: 5;
@@ -210,7 +210,7 @@ a {
     min-height: 250px;
     display: flex;
     align-items: center;
-    background-image: url("//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdwallpaperim.com%2Fwp-content%2Fuploads%2F2017%2F08%2F24%2F107270-Interstellar_movie.jpg&f=1&nofb=1");
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wallpapersafari.com%2F41%2F1%2Fhj197K.jpg&f=1&nofb=1");
     background-repeat: no-repeat;
     background-size: cover;
 }
