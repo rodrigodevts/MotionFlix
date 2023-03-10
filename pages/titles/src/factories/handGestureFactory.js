@@ -10,6 +10,8 @@ import handGestureView from '../views/handGestureView.js';
 import Camera from '../../../lib/shared/camera.js';
 import { fingerLookupIndexes, knownGestures, gestureStrings} from "../utils/util.js";
 
+const styler = new PseudoStyler();
+
 const camera = await Camera.init();
 
 const factory = {
@@ -18,13 +20,14 @@ const factory = {
 			camera,
 			view: new handGestureView({
 				fingerLookupIndexes,
+				styler,
 			}),
 			service: new HandGestureService({
 				fingerpose: window.fp,
 				handPoseDetection: window.handPoseDetection,
 				handsVersion: window.VERSION,
 				knownGestures,
-				gestureStrings
+				gestureStrings,
 			})
 		})
 	}
